@@ -4,10 +4,7 @@ var logger = require('morgan');
 var app = express();
 
 app.use(logger());
-
-app.configure(function(){
-  app.use(express.static(path.join(__dirname, '/')));
-});
+app.use(express.static(path.join(__dirname, '/')));
 
 app.get('/', function (req, res) {
   res.render('index.html');
