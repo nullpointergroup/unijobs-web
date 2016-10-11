@@ -1,0 +1,21 @@
+{
+  "name": "unijobs",
+  "version": "0.0.1",
+  "description": "A simple website for colaborate with people",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nullpointergroup/unijobs-web"
+  },
+  "author": "nullpointergroup",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.2.31",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10",
+    "morgan": "^1.7.0"
+  }
+}
